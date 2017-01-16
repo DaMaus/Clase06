@@ -4,11 +4,13 @@ img{
 }
 
 .imagen{
-  width: 100%;
+  width: 50%;
   height: 400px;
   background-image: url("../imagenes/gato.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gradiente{
@@ -21,4 +23,32 @@ img{
   width: 700px;
   height: 700px;
   background: linear-gradient(to bottom right, rgba(255,0,0,.3),rgba(255,0,255,1))
+}
+
+.transformacion{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 7px;
+  /*transform: translate(500px,200px);*/
+  /*transform: rotate(20deg) translate(500px,200px);*/
+  /*Skew grados al estilo ochentero*/
+  /*transform: scale(3);*/
+  /*transform: rotate(20deg) scale(3,2) translate(200px,100px);
+  */
+  transform: rotateX(30deg);
+}
+
+.transicion{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(21, 95, 156);
+  border-radius: 7px;
+  transition: background 3s, height 3s, transform 3s;
+}
+
+.transicion:hover{
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+  transform: rotate(45deg) translate(200px, 50px);
 }
