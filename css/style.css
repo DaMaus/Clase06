@@ -2,10 +2,23 @@ img{
   max-width: 100%;
   height: auto;
 }
+
 .imagen{
   width: 100%;
   height: 400px;
   background-image: url("../imagenes/gato.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.gradiente{
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(to bottom right,red,yellow,blue,black,#c811ed,rgb(11, 7, 18))
+}
+
+.gra{
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(to bottom right, rgba(255,0,0,.3),rgba(255,0,255,1))
 }
