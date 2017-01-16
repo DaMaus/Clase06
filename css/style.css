@@ -3,6 +3,11 @@ img{
   height: auto;
 }
 
+body{
+  background-color: white;
+  font-size: 20px;
+}
+
 .imagen{
   width: 50%;
   height: 400px;
@@ -61,6 +66,13 @@ img{
   animation-name: animacion;
   animation-duration: 6s;
   animation-iteration-count: infinite;
+}
+
+.guayaba{
+  border-radius: 12px;
+  background-color: rgb(202, 227, 2);
+  text-align: center;
+  color: black;
 }
 
 @keyframes animacion {
